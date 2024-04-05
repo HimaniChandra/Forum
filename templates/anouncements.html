@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./anouncements.css" />
+    <link rel="stylesheet" href="{{ url_for("static",filename="css/global.css") }}" />
+    <link rel="stylesheet" href="{{ url_for("static",filename="css/anouncements.css") }}" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
@@ -30,7 +30,7 @@
           class="image-2-icon"
           loading="lazy"
           alt=""
-          src="./public/image-2@2x.png"
+          src="{{ url_for("static",filename="public/image-2@2x.png") }}"
         />
       </div>
       <div class="post-bottom">
@@ -40,19 +40,19 @@
               <img
                 class="reactionslinkedin-like-contai-icon"
                 alt=""
-                src="./public/reactionslinkedinlikecontainer.svg"
+                src="{{ url_for("static",filename="public/reactionslinkedinlikecontainer.svg") }}"
               />
 
               <img
                 class="reactionslinkedin-love-contai-icon"
                 alt=""
-                src="./public/reactionslinkedinlovecontainer.svg"
+                src="{{ url_for("static",filename="public/reactionslinkedinlovecontainer.svg") }}"
               />
 
               <img
                 class="reactionslinkedin-insightful-icon"
                 alt=""
-                src="./public/reactionslinkedininsightfulcontainer.svg"
+                src="{{ url_for("static",filename="public/reactionslinkedininsightfulcontainer.svg") }}"
               />
             </div>
             <div class="div">113</div>
@@ -73,7 +73,7 @@
                 <img
                   class="iconslinkedin-like"
                   alt=""
-                  src="./public/iconslinkedinlike.svg"
+                  src="{{ url_for("static",filename="/public/iconslinkedinlike.svg") }}"
                 />
 
                 <div class="like">Like</div>
@@ -84,37 +84,37 @@
                 <img
                   class="reactionslinkedin-icon"
                   alt=""
-                  src="./public/reactionslinkedin.svg"
+                  src="{{ url_for("static",filename="/public/reactionslinkedin.svg")}}"
                 />
 
                 <img
                   class="reactionslinkedin-icon1"
                   alt=""
-                  src="./public/reactionslinkedin-1.svg"
+                  src="{{ url_for("static",filename="/public/reactionslinkedin-1.svg") }}"
                 />
 
                 <img
                   class="reactionslinkedin-icon2"
                   alt=""
-                  src="./public/reactionslinkedin-2.svg"
+                  src="{{ url_for("static",filename="/public/reactionslinkedin-2.svg") }}"
                 />
 
                 <img
                   class="reactionslinkedin-icon3"
                   alt=""
-                  src="./public/reactionslinkedin-3.svg"
+                  src="{{ url_for("static",filename="/public/reactionslinkedin-3.svg") }}"
                 />
 
                 <img
                   class="reactionslinkedin-icon4"
                   alt=""
-                  src="./public/reactionslinkedin-4.svg"
+                  src="{{ url_for("static",filename="/public/reactionslinkedin-4.svg") }}"
                 />
 
                 <img
                   class="reactionslinkedin-icon5"
                   alt=""
-                  src="./public/reactionslinkedin-5.svg"
+                  src="{{ url_for("static",filename="/public/reactionslinkedin-5.svg") }}"
                 />
               </div>
             </div>
@@ -123,7 +123,7 @@
             <img
               class="iconslinkedin-comment"
               alt=""
-              src="./public/iconslinkedincomment.svg"
+              src="{{ url_for("static",filename="/public/iconslinkedincomment.svg") }}"
             />
 
             <div class="comment1">Comment</div>
@@ -132,7 +132,7 @@
             <img
               class="iconslinkedin-repost"
               alt=""
-              src="./public/iconslinkedinrepost@2x.png"
+              src="{{ url_for("static",filename="/public/iconslinkedinrepost@2x.png") }}"
             />
 
             <div class="repost">Repost</div>
@@ -141,7 +141,7 @@
             <img
               class="iconslinkedin-share"
               alt=""
-              src="./public/iconslinkedinshare.svg"
+              src="{{ url_for("static",filename="/public/iconslinkedinshare.svg") }}"
             />
 
             <div class="send1">Send</div>
@@ -157,7 +157,7 @@
                 <img
                   class="linkedin-carousel-icon6"
                   alt=""
-                  src="./public/linkedin-carousel@2x.png"
+                  src="{{ url_for("static",filename="public/reactionslinkedinlovecontainer.svg") }}"
                 />
 
                 <div class="profile-circle-icon-2048x2048-container">
@@ -165,7 +165,7 @@
                     class="profile-circle-icon-2048x2048-4"
                     loading="lazy"
                     alt=""
-                    src="./public/profilecircleicon2048x2048cqe5466q-2-1@2x.png"
+                    src="{{ url_for("static",filename="/public/profilecircleicon2048x2048cqe5466q-2-1@2x.png") }}"
                   />
 
                   <div class="katherine-mary-parent1">
@@ -175,7 +175,7 @@
                         <img
                           class="linkedin-carousel-icon7"
                           alt=""
-                          src="./public/linkedin-carousel-1@2x.png"
+                          src="{{ url_for("static",filename="/public/linkedin-carousel-1@2x.png") }}"
                         />
 
                         <div class="department-of-it3">
@@ -191,26 +191,26 @@
                       class="vector-icon8"
                       loading="lazy"
                       alt=""
-                      src="./public/vector.svg"
+                      src="{{ url_for("static",filename="/public/vector.svg") }}"
                     />
 
                     <img
                       class="vector-icon9"
                       alt=""
-                      src="./public/vector-1.svg"
+                      src="{{ url_for("static",filename="/public/vector-1.svg") }}"
                     />
 
                     <img
                       class="vector-icon10"
                       alt=""
-                      src="./public/vector-2.svg"
+                      src="{{ url_for("static",filename="/public/vector-2.svg") }}"
                     />
 
                     <img
                       class="uiwreload-icon3"
                       loading="lazy"
                       alt=""
-                      src="./public/uiwreload.svg"
+                      src="{{ url_for("static",filename="/public/uiwreload.svg") }}"
                     />
                   </div>
                 </div>
@@ -220,14 +220,14 @@
                   <img
                     class="linkedin-carousel-icon8"
                     alt=""
-                    src="./public/linkedin-carousel-2@2x.png"
+                    src="{{ url_for("static",filename="/public/linkedin-carousel-2@2x.png") }}"
                   />
 
                   <div class="profile-circle-icon-2048x2048-parent1">
                     <img
                       class="profile-circle-icon-2048x2048-5"
                       alt=""
-                      src="./public/profilecircleicon2048x2048cqe5466q-2-11@2x.png"
+                      src="{{ url_for("static",filename="/public/profilecircleicon2048x2048cqe5466q-2-11@2x.png") }}"
                     />
 
                     <div class="katherine-mary-parent2">
@@ -237,7 +237,7 @@
                           <img
                             class="linkedin-carousel-icon9"
                             alt=""
-                            src="./public/linkedin-carousel-3@2x.png"
+                            src="{{ url_for("static",filename="/public/linkedin-carousel-3@2x.png") }}"
                           />
 
                           <div class="department-of-it4">
@@ -252,25 +252,25 @@
                       <img
                         class="vector-icon11"
                         alt=""
-                        src="./public/vector-3.svg"
+                        src="{{ url_for("static",filename="/public/vector-3.svg") }}"
                       />
 
                       <img
                         class="vector-icon12"
                         alt=""
-                        src="./public/vector-4.svg"
+                        src="{{ url_for("static",filename="/public/vector-4.svg") }}"
                       />
 
                       <img
                         class="vector-icon13"
                         alt=""
-                        src="./public/vector-5.svg"
+                        src="{{ url_for("static",filename="/public/vector-5.svg") }}"
                       />
 
                       <img
                         class="uiwreload-icon4"
                         alt=""
-                        src="./public/uiwreload-1.svg"
+                        src="{{ url_for("static",filename="/public/uiwreload-1.svg") }}"
                       />
                     </div>
                   </div>
@@ -279,14 +279,14 @@
                   <img
                     class="linkedin-carousel-icon10"
                     alt=""
-                    src="./public/linkedin-carousel-4@2x.png"
+                    src="{{ url_for("static",filename="/public/linkedin-carousel-4@2x.png") }}"
                   />
 
                   <div class="profile-circle-icon-2048x2048-parent2">
                     <img
                       class="profile-circle-icon-2048x2048-6"
                       alt=""
-                      src="./public/profilecircleicon2048x2048cqe5466q-2-1@2x.png"
+                      src="{{ url_for("static",filename="/public/profilecircleicon2048x2048cqe5466q-2-1@2x.png") }}"
                     />
 
                     <div class="katherine-mary-parent3">
@@ -296,7 +296,7 @@
                           <img
                             class="linkedin-carousel-icon11"
                             alt=""
-                            src="./public/linkedin-carousel-5@2x.png"
+                            src="{{ url_for("static",filename="/public/linkedin-carousel-5@2x.png") }}"
                           />
 
                           <div class="department-of-it5">
@@ -311,25 +311,25 @@
                       <img
                         class="vector-icon14"
                         alt=""
-                        src="./public/vector.svg"
+                        src="{{ url_for("static",filename="/public/vector.svg") }}"
                       />
 
                       <img
                         class="vector-icon15"
                         alt=""
-                        src="./public/vector-1.svg"
+                        src="{{ url_for("static",filename="/public/vector-1.svg") }}"
                       />
 
                       <img
                         class="vector-icon16"
                         alt=""
-                        src="./public/vector-2.svg"
+                        src="{{ url_for("static",filename="/public/vector-2.svg") }}"
                       />
 
                       <img
                         class="uiwreload-icon5"
                         alt=""
-                        src="./public/uiwreload.svg"
+                        src="{{ url_for("static",filename="./public/uiwreload.svg") }}"
                       />
                     </div>
                   </div>
@@ -338,7 +338,7 @@
             </div>
           </div>
         </section>
-        <img class="search-icon" alt="" src="./public/search@2x.png" />
+        <img class="search-icon" alt="" src="{{ url_for("static",filename="/public/search@2x.png") }}" />
       </main>
       <div class="anouncements-child"></div>
     </div>
