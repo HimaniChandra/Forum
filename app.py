@@ -19,7 +19,7 @@ def discuss():
     return render_template('frame-9.html')
 @app.route("/announce")
 def announce():
-    return render_template()
+    return render_template("anouncements.html")
 
 if __name__ == '__main__':
     app.run(debug=True)
