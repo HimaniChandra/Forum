@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for("static",filename="css/global.css") }}" />
+    <link rel="stylesheet" href="{{ url_for("static",filename="css/index.css") }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans 3:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="landing-page">
+      <img
+        class="landing-page-child"
+        loading="lazy"
+        alt=""
+        src="{{ url_for("static",filename="public/rectangle-1.svg") }}"
+      />
+
+      <div class="frame-parent1">
+        <div class="licet-forum-parent">
+          <h1 class="licet-forum">LICET FORUM</h1>
+          <div class="let-your-light-shine-wrapper">
+            <div class="let-your-light">LET YOUR LIGHT SHINE</div>
+          </div>
+        </div>
+        <div class="login-wrapper">
+          <a href="{{ url_for("homepage") }}">
+          <div class="login">LOGIN</div>
+          </a>
+        </div>
+      </div>
+      <img
+        class="image-5-icon"
+        loading="lazy"
+        alt=""
+        src="{{ url_for("static",filename="public/image-5@2x.png") }}"
+      />
+    </div>
+  </body>
+</html>

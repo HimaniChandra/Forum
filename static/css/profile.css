@@ -1,0 +1,745 @@
+.profile-image-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+}
+.profile-circle-icon-2048x2048- {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20.813rem;
+  height: 20.813rem;
+  object-fit: cover;
+  z-index: 1;
+}
+.profile-image {
+  height: 20.813rem;
+  width: 20.813rem;
+  position: relative;
+  max-width: 100%;
+}
+.department-year,
+.name {
+  margin: 0;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.name {
+  align-self: stretch;
+  height: 11.5rem;
+  font-size: inherit;
+}
+.department-year {
+  width: 24.563rem;
+  height: 6.063rem;
+  font-size: var(--font-size-21xl);
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+.name-parent,
+.profile-image-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.name-parent {
+  flex: 1;
+  flex-direction: column;
+  min-width: 46.5rem;
+}
+.profile-image-parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3.25rem;
+}
+.about {
+  margin: 0;
+  height: 2.406rem;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.about-wrapper,
+.frame-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.about-wrapper {
+  width: 60.563rem;
+  flex-direction: row;
+  padding: 0 2.313rem;
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+}
+.frame-parent {
+  width: 95.625rem;
+  flex-direction: column;
+  gap: 0.963rem;
+  text-align: left;
+  font-size: 4.375rem;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frame-child,
+.uiwlike-o {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.uiwlike-o {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 51.063rem;
+  left: 23rem;
+}
+.frame-child {
+  align-self: stretch;
+  height: 0.306rem;
+  position: relative;
+  max-width: 100%;
+  object-fit: contain;
+  debug_commit: f6aba90;
+}
+.posts {
+  margin: 0;
+  position: absolute;
+  top: 1.188rem;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 20.313rem;
+  height: 4.063rem;
+}
+.uiwlike-o-icon {
+  position: absolute;
+  top: 0;
+  left: 56.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  overflow: hidden;
+}
+.katherine-mary-label {
+  height: 5.25rem;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  max-width: 100%;
+}
+.katherine-mary-label-wrapper,
+.vector-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.katherine-mary-label-wrapper {
+  width: 58rem;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.vector-parent {
+  align-self: stretch;
+  height: 8.063rem;
+  flex-direction: column;
+  gap: 2.506rem;
+}
+.linkedin-carousel-icon {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+.profile-circle-icon-2048x2048-1 {
+  height: 4.563rem;
+  width: 4.438rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.katherine-mary {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 4;
+}
+.linkedin-carousel-icon1 {
+  height: 14.506rem;
+  width: 80.331rem;
+  margin: 0 !important;
+  position: absolute;
+  right: -53.581rem;
+  bottom: -5.819rem;
+  border-radius: var(--br-base);
+  object-fit: contain;
+  z-index: 1;
+}
+.department-of-it {
+  margin-top: -1.812rem;
+  height: 5.063rem;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 3;
+}
+.linkedin-carousel-group {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frame-wrapper {
+  align-self: stretch;
+  height: 3.25rem;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.frame-wrapper,
+.katherine-mary-name-label,
+.katherine-mary-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.katherine-mary-parent {
+  flex: 1;
+  flex-direction: column;
+  min-width: 12.688rem;
+}
+.katherine-mary-name-label {
+  width: 25.75rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.uiwreload-icon,
+.vector-icon,
+.vector-icon1,
+.vector-icon2 {
+  height: 2.5rem;
+  width: 2.375rem;
+  position: relative;
+  min-height: 2.5rem;
+  z-index: 3;
+}
+.uiwreload-icon,
+.vector-icon2 {
+  width: 2.5rem;
+}
+.uiwreload-icon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vector-group {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-container,
+.linkedin-carousel-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-container {
+  width: 17.125rem;
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+}
+.linkedin-carousel-parent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-base) var(--padding-23xl-1);
+  position: relative;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.linkedin-carousel-icon2 {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.profile-circle-icon-2048x2048-2 {
+  height: 4.563rem;
+  width: 4.438rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.katherine-mary1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 3;
+}
+.linkedin-carousel-icon3 {
+  height: 14.506rem;
+  width: 80.331rem;
+  margin: 0 !important;
+  position: absolute;
+  right: -53.581rem;
+  bottom: -5.819rem;
+  border-radius: var(--br-base);
+  object-fit: contain;
+}
+.department-of-it1 {
+  margin-top: -1.812rem;
+  height: 5.063rem;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+}
+.linkedin-carousel-parent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.full-name-label {
+  align-self: stretch;
+  height: 3.25rem;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.full-name-label,
+.katherine-mary-group,
+.profile-circle-icon-2048x2048-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.katherine-mary-group {
+  flex: 1;
+  flex-direction: column;
+  min-width: 12.688rem;
+}
+.profile-circle-icon-2048x2048-parent {
+  width: 25.75rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.linked-in-carousels,
+.uiwreload-icon1,
+.vector-icon3,
+.vector-icon4 {
+  height: 2.5rem;
+  width: 2.375rem;
+  position: relative;
+  min-height: 2.5rem;
+  z-index: 2;
+}
+.uiwreload-icon1,
+.vector-icon4 {
+  width: 2.5rem;
+}
+.uiwreload-icon1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linked-in-carousels-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper1,
+.linkedin-carousel-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-wrapper1 {
+  width: 17.125rem;
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+}
+.linkedin-carousel-container {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-base) var(--padding-23xl-1);
+  position: relative;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.linkedin-carousel-icon4 {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.profile-circle-icon-2048x2048-3 {
+  height: 4.563rem;
+  width: 4.438rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.katherine-mary2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 3;
+}
+.linkedin-carousel-icon5 {
+  height: 14.506rem;
+  width: 80.331rem;
+  margin: 0 !important;
+  position: absolute;
+  right: -53.581rem;
+  bottom: -5.819rem;
+  border-radius: var(--br-base);
+  object-fit: contain;
+}
+.department-of-it2 {
+  margin-top: -1.812rem;
+  height: 5.063rem;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+}
+.linkedin-carousel-parent3 {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+}
+.frame-wrapper2,
+.katherine-mary-container,
+.linkedin-carousel-parent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper2 {
+  align-self: stretch;
+  height: 3.25rem;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.katherine-mary-container {
+  flex: 1;
+  flex-direction: column;
+  min-width: 12.688rem;
+}
+.profile-circle-icon-2048x2048-group {
+  width: 25.75rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.uiwreload-icon2,
+.vector-icon5,
+.vector-icon6,
+.vector-icon7 {
+  height: 2.5rem;
+  width: 2.375rem;
+  position: relative;
+  min-height: 2.5rem;
+  z-index: 2;
+}
+.uiwreload-icon2,
+.vector-icon7 {
+  width: 2.5rem;
+}
+.uiwreload-icon2 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-wrapper3,
+.vector-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.vector-container {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper3 {
+  width: 17.125rem;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+.frame-div,
+.linkedin-carousel-parent2 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.linkedin-carousel-parent2 {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-xl) var(--padding-base) var(--padding-23xl-1);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frame-div {
+  gap: 2.556rem;
+}
+.frame-div,
+.frame-group,
+.linked-in-carousel-instance-inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-group {
+  width: 80.331rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5.056rem;
+}
+.linked-in-carousel-instance-inner {
+  width: 100.831rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-17xl);
+}
+.linked-in-carousel-instance,
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linked-in-carousel-instance {
+  align-self: stretch;
+  gap: 4.875rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.profile {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-snow);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 5.125rem 3.813rem 11.931rem 7.75rem;
+  box-sizing: border-box;
+  gap: 11.319rem;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .name {
+    font-size: 3.5rem;
+  }
+  .department-year {
+    font-size: var(--linkedin-body-semibold-size);
+  }
+  .name-parent {
+    min-width: 100%;
+  }
+  .about,
+  .posts {
+    font-size: var(--linkedin-body-semibold-size);
+  }
+  .katherine-mary,
+  .katherine-mary1,
+  .katherine-mary2 {
+    font-size: var(--font-size-10xl);
+  }
+  .profile {
+    gap: 5.688rem 11.319rem;
+    padding-left: 3.875rem;
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .profile-image-parent {
+    gap: 1.625rem;
+  }
+  .vector-parent {
+    gap: 1.25rem 2.506rem;
+  }
+  .frame-div {
+    gap: 1.25rem 2.556rem;
+  }
+  .frame-group {
+    gap: 2.5rem 5.056rem;
+  }
+  .linked-in-carousel-instance {
+    gap: 2.438rem 4.875rem;
+  }
+  .profile {
+    gap: 2.813rem 11.319rem;
+    padding-left: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .name {
+    font-size: 2.625rem;
+  }
+  .about,
+  .department-year,
+  .posts {
+    font-size: var(--font-size-5xl);
+  }
+  .katherine-mary {
+    font-size: var(--font-size-3xl);
+  }
+  .department-of-it {
+    font-size: var(--font-size-base);
+  }
+  .vector-group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .linkedin-carousel-parent {
+    gap: 1.063rem 2.125rem;
+  }
+  .katherine-mary1 {
+    font-size: var(--font-size-3xl);
+  }
+  .department-of-it1 {
+    font-size: var(--font-size-base);
+  }
+  .linked-in-carousels-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .linkedin-carousel-container {
+    gap: 1.063rem 2.125rem;
+  }
+  .katherine-mary2 {
+    font-size: var(--font-size-3xl);
+  }
+  .department-of-it2 {
+    font-size: var(--font-size-base);
+  }
+  .vector-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .linkedin-carousel-parent2 {
+    gap: 1.063rem 2.125rem;
+  }
+  .frame-group {
+    gap: 1.25rem 5.056rem;
+  }
+  .linked-in-carousel-instance {
+    gap: 1.188rem 4.875rem;
+  }
+}

@@ -1,0 +1,131 @@
+.landing-page-child {
+  position: absolute;
+  top: 50.5rem;
+  left: 50.063rem;
+  width: 19.938rem;
+  height: 5.5rem;
+}
+.licet-forum {
+  margin: 0;
+  align-self: stretch;
+  height: 7.419rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  mix-blend-mode: normal;
+}
+.let-your-light,
+.let-your-light-shine-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.let-your-light {
+  height: 2.438rem;
+  width: 46.438rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  align-items: center;
+  flex-shrink: 0;
+}
+.let-your-light-shine-wrapper {
+  width: 57.938rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: #454c66;
+  font-family: var(--font-inter);
+}
+.licet-forum-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.794rem;
+  max-width: 100%;
+}
+.login {
+  height: 5.5rem;
+  width: 18.688rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-parent1,
+.login-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.login-wrapper {
+  width: 57.938rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: #7b7676;
+  font-family: var(--font-inter);
+}
+.frame-parent1 {
+  position: absolute;
+  top: 35.538rem;
+  left: 31.063rem;
+  width: 60.763rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3.313rem;
+}
+.image-5-icon {
+  position: absolute;
+  top: 3.625rem;
+  left: 40.563rem;
+  width: 38.938rem;
+  height: 28.313rem;
+  object-fit: cover;
+}
+.landing-page {
+  width: 100%;
+  height: 67.5rem;
+  position: relative;
+  background-color: var(--facebook-secondary-white);
+  overflow: hidden;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 8.438rem;
+  color: #895f5f;
+  font-family: var(--font-tinos);
+}
+@media screen and (max-width: 767px) {
+  .licet-forum {
+    font-size: 3.375rem;
+  }
+  .let-your-light,
+  .login {
+    font-size: var(--linkedin-body-semibold-size);
+  }
+}
+@media screen and (max-width: 450px) {
+  .licet-forum {
+    font-size: 2.125rem;
+  }
+  .let-your-light,
+  .login {
+    font-size: var(--font-size-5xl);
+  }
+}
