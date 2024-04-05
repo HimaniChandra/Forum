@@ -8,7 +8,7 @@ def index():
     return render_template('index.html')
 @app.route('/homepage')
 def homepage():
-    return render_template('frame-9.html')
+    return render_template('frame-11.html')
 
 
 @app.route('/profile')
@@ -16,7 +16,10 @@ def profile():
     return render_template('profile.html')
 @app.route('/discuss')
 def discuss():
-    return render_template('frame-11.html')
+    return render_template('frame-9.html')
+@app.route("/announce")
+def announce():
+    return render_template()
 
 if __name__ == '__main__':
     app.run(debug=True)
