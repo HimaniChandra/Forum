@@ -2,10 +2,7 @@ body {
   margin: 0;
   line-height: normal;
 }
-a{
-  text-decoration: none;
-  color: black;
-}
+
 :root {
   /* fonts */
   --font-inter: Inter;
@@ -19,6 +16,7 @@ a{
   --font-size-lgi: 1.188rem;
   --linkedin-body-semibold-size: 2rem;
   --font-size-7xl: 1.625rem;
+  --font-size-77xl: 6rem;
   --font-size-21xl: 2.5rem;
   --font-size-xl: 1.25rem;
   --font-size-base: 1rem;
@@ -38,11 +36,13 @@ a{
 
   /* Gaps */
   --gap-xl: 1.25rem;
+  --gap-9xs: 0.25rem;
   --gap-15xl: 2.125rem;
   --gap-mid: 1.063rem;
   --gap-9xl: 1.75rem;
   --gap-5xl: 1.5rem;
   --gap-base: 1rem;
+  --gap-5xs: 0.5rem;
 
   /* Paddings */
   --padding-4xl: 1.438rem;
@@ -66,8 +66,15 @@ a{
   --padding-sm: 0.875rem;
   --padding-5xl: 1.5rem;
   --padding-5xs: 0.5rem;
+  --padding-lg: 1.125rem;
+  --padding-smi: 0.813rem;
+  --padding-2xs: 0.688rem;
+  --padding-58xl: 4.813rem;
+  --padding-7xl: 1.625rem;
+  --padding-25xl: 2.75rem;
 
   /* Border radiuses */
   --br-21xl: 40px;
+  --br-xl: 20px;
   --br-base: 16px;
 }

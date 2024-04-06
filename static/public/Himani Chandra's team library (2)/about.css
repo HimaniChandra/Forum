@@ -1,0 +1,188 @@
+.image-5-icon3 {
+  height: 8.181rem;
+  width: 8.375rem;
+  position: relative;
+  object-fit: cover;
+}
+.vector-icon31 {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+}
+.hero,
+.hero-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero-content {
+  height: 5.25rem;
+  flex-direction: column;
+  padding: var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+}
+.hero {
+  height: 8.181rem;
+  width: 15.438rem;
+  flex-direction: row;
+  gap: 4.563rem;
+  min-width: 15.438rem;
+}
+.about-us {
+  margin: 0;
+  align-self: stretch;
+  height: 5.438rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about-us-wrapper,
+.header {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.about-us-wrapper {
+  width: 36.313rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+  min-width: 36.313rem;
+}
+.header {
+  width: 62.688rem;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.at-licet-forum,
+.p {
+  margin: 0;
+}
+.at-licet-forum-container {
+  align-self: stretch;
+  height: 13.813rem;
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.developers,
+.himani-chandrab-from,
+.issac-kingsleyd-from,
+.johanna-fernandop-from,
+.keerthanan-from-cse,
+.p1 {
+  margin: 0;
+}
+.developers-himani-chandrab-container {
+  height: 16.875rem;
+  flex: 1;
+  position: relative;
+  line-height: 2.5rem;
+  display: inline-block;
+  max-width: 100%;
+}
+.team-members {
+  width: 44.375rem;
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.page-structure1,
+.team-intro,
+.team-intro-wrapper,
+.team-members {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.team-intro {
+  flex: 1;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 100%;
+}
+.page-structure1,
+.team-intro-wrapper {
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.team-intro-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 3.25rem 0 3.313rem;
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+}
+.page-structure1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--facebook-secondary-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-lg) 1.563rem 14.813rem;
+  gap: 10.188rem;
+  letter-spacing: normal;
+  font-size: var(--font-size-77xl);
+}
+@media screen and (max-width: 1200px) {
+  .team-intro-wrapper {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hero {
+    flex: 1;
+  }
+  .about-us {
+    font-size: 3rem;
+    line-height: 1.5rem;
+  }
+  .about-us-wrapper {
+    flex: 1;
+  }
+  .header {
+    flex-wrap: wrap;
+  }
+  .at-licet-forum-container,
+  .developers-himani-chandrab-container {
+    font-size: var(--font-size-10xl);
+    line-height: 2rem;
+  }
+  .page-structure1 {
+    gap: 5.063rem 10.188rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about-us-wrapper {
+    min-width: 100%;
+  }
+  .team-intro {
+    gap: 1.25rem 2.5rem;
+  }
+  .page-structure1 {
+    gap: 2.563rem 10.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us {
+    font-size: var(--font-size-10xl);
+    line-height: 1rem;
+  }
+  .at-licet-forum-container,
+  .developers-himani-chandrab-container {
+    font-size: var(--font-size-3xl);
+    line-height: 1.5rem;
+  }
+}
