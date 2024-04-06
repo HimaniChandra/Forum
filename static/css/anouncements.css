@@ -414,6 +414,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
+  
 }
 .frame-wrapper5 {
   width: 17.125rem;
@@ -426,7 +427,9 @@
   padding: var(--padding-xl) var(--padding-base) var(--padding-23xl-1);
   position: relative;
   gap: var(--gap-15xl);
-  max-width: 100%;
+  max-width: 70%;
+  background-color: white;
+  border-radius: 10px;
 }
 .linkedin-carousel-icon8 {
   width: 100%;

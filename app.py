@@ -424,6 +424,9 @@ def gallery():
 @app.route("/dm")
 def dm():
     return render_template("dm.html")
+@app.route("/page")
+def page():
+    return render_template("page-structure.html")
 #@app.route("/attendance/<username>")
 #def gallery(username):
 #    return render_template("overview/overview.html",username=username)

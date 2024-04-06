@@ -41,7 +41,7 @@
           class="position-icon"
           loading="lazy"
           alt=""
-          src="./public/vector.svg"
+          src="{{ url_for("static",filename="public/vector.svg") }}"
         />
 
         <img class="dimensions-icon" alt="" src="{{ url_for('static',filename='/public1/vector-1.svg') }}" />
@@ -83,6 +83,7 @@
 
                   
                 </div>
+                <a href="{{ url_for("page")}}" >
                 <div class="chatter-details">
                   <div class="chatter-name">
                     <h2 class="alexander">Alexander</h2>
@@ -95,6 +96,7 @@
                     <h2 class="thank-you-for">Thank you for your help</h2>
                   </div>
                 </div>
+              </a>
                 <div class="timestamp">
                   <div class="today-520-am">Today 5:20 am</div>
                 </div>

@@ -2,10 +2,7 @@ body {
   margin: 0;
   line-height: normal;
 }
-a{
-  text-decoration: none;
-  color: black;
-}
+
 :root {
   /* fonts */
   --font-inter: Inter;
@@ -38,11 +35,13 @@ a{
 
   /* Gaps */
   --gap-xl: 1.25rem;
+  --gap-9xs: 0.25rem;
   --gap-15xl: 2.125rem;
   --gap-mid: 1.063rem;
   --gap-9xl: 1.75rem;
   --gap-5xl: 1.5rem;
   --gap-base: 1rem;
+  --gap-5xs: 0.5rem;
 
   /* Paddings */
   --padding-4xl: 1.438rem;
@@ -66,8 +65,12 @@ a{
   --padding-sm: 0.875rem;
   --padding-5xl: 1.5rem;
   --padding-5xs: 0.5rem;
+  --padding-smi: 0.813rem;
+  --padding-2xs: 0.688rem;
+  --padding-58xl: 4.813rem;
 
   /* Border radiuses */
   --br-21xl: 40px;
+  --br-xl: 20px;
   --br-base: 16px;
 }
