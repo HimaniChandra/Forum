@@ -351,7 +351,7 @@ a{
   background-color: var(--facebook-secondary-white);
   flex-direction: column;
   align-items: flex-end;
-  padding: var(--padding-5xl) 0;
+  padding: var(--padding-5xl);
   gap: var(--gap-base);
   z-index: 1;
 }
@@ -359,7 +359,7 @@ a{
   width: 77.688rem;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 2.875rem;
+  /*padding: 0 2.875rem;*/
 }
 .frame-inner {
   position: absolute;
@@ -561,7 +561,6 @@ a{
   background-color: #faf9f6;
   gap: 0.625rem;
 }
-.following,
 .lorem-ipsum-dolor {
   display: none;
   align-items: center;
@@ -594,11 +593,12 @@ a{
 .linked-in-carousel {
   width: 96.075rem;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
   max-width: 100%;
   margin-top: -39.687rem;
+  margin-left: 25.375rem;
 }
 .home-parent {
   width: 100%;
