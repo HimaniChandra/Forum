@@ -33,12 +33,19 @@
               class="profile-circle-icon-2048x2048-"
               loading="lazy"
               alt=""
-              src="{{ url_for("static",filename="public/profilecircleicon2048x2048cqe5466q-2@2x.png") }}"
+              src="{{ image }}"
             />
           </div>
           <div class="name-parent">
-            <h1 class="name">NAME</h1>
-            <h1 class="department-year">Department year</h1>
+            {% if name %}
+            {% if roll %}
+            {% if yr %}
+
+            <h1 class="name">{{ name }}</h1>
+            <h1 class="department-year">{{ roll }} {{ yr }}</h1>
+            {% endif %}
+            {% endif %}
+            {% endif %}
           </div>
         </div>
         <div class="about-wrapper">

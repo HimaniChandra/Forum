@@ -8,11 +8,11 @@
 }
 :root{
     
-    --bg : #000000;
-    --red : #ee2046;
-    --pur : #a879e9;
-    --dpink:#ff002f;
-    --gray : rgba(25, 25, 25,1);
+    --bg :beige;
+    --red : #e6f845;
+    --pur : #819156;
+    --dpink:#6c723a;
+    --gray : rgb(245, 245, 148);
 }
 a{
     color: inherit;
@@ -38,10 +38,10 @@ body{
     width: 100%;
     height: 500vh;
     z-index: 1;
-    background-color: #00000064;
+    background-color: #ccba54e5;
 }
 .navbar{
-    background-image: linear-gradient(60deg , rgba(40, 40, 40,0.5),rgba(45, 45, 45,0.4),rgb(40, 40, 40,0.5));
+    background-image: linear-gradient(60deg , rgba(40, 40, 40, 0.5),rgba(45, 45, 45, 0.4),rgba(40, 40, 40, 0.5));
     display: flex ;
     opacity: 1;
     justify-content: space-between;
@@ -135,7 +135,7 @@ i{
 
 
 .percent,.periods{
-    background-color:rgba(19, 19, 19, 0.8) ;
+    background-color:#819156;
     display: flex;
     padding-top: 2%;
     padding-left: 8%;
