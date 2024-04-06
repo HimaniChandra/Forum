@@ -50,7 +50,9 @@
                   />
 
                   <div class="profile-wrapper">
+                    <a href="{{url_for("profile")}}">
                     <b class="profile1">Profile</b>
+                  </a>
                   </div>
                 </div>
                 <a href="{{ url_for("announce")}}">
@@ -68,22 +70,26 @@
                 
                 <p class="blank-line">&nbsp;</p>
                 
-                <a href="{{ url_for("announce")}}">
+                <a href="{{ url_for("blog")}}">
                 <p class="blog">Blog</p>
                 </a>
                 
                 <p class="blank-line1">&nbsp;</p>
                 
-                <a href="{{ url_for("announce")}}">
+                <a href="{{ url_for("leaderboard")}}">
                 <p class="leaderboard">LeaderBoard</p>
                 </a>
                 
                 <p class="blank-line2">&nbsp;</p>
 
-                <a href="{{ url_for("announce")}}">
+                <a href="{{ url_for("gallery")}}">
                 <p class="gallery">Gallery</p>
                 </a>
+                <p class="blank-line2">&nbsp;</p>
 
+                <a href="{{ url_for("store")}}">
+                <p class="gallery">store</p>
+                </a>
                 <p class="blank-line3">&nbsp;</p>
 
                 <a href="{{ url_for("announce")}}">

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  line-height: normal;
+  overflow: hidden;
+  background-repeat: no repeat;
+  background-attachment: fixed;
+}
+.about-us,
+.home {
+  position: fixed;
+  top: 6%;
+  right: 15%;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.about-us {
+  right: 5%;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-mini: 15px;
+  --font-size-50xl: 69px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkorchid-100: #fde8aa;
+  --color-black: #000;
+  --color-salmon: #ed7370;
+  --color-plum: #df9ef7;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+}
