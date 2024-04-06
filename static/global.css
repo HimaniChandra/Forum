@@ -5,6 +5,9 @@ body {
   background-repeat: no repeat;
   background-attachment: fixed;
 }
+a{
+  text-decoration: none;
+}
 .about-us,
 .home {
   position: fixed;
