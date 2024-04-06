@@ -427,6 +427,9 @@ def dm():
 @app.route("/page")
 def page():
     return render_template("page-structure.html")
+@app.route("/about")
+def about():
+    return render_template("about.html")
 #@app.route("/attendance/<username>")
 #def gallery(username):
 #    return render_template("overview/overview.html",username=username)
