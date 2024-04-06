@@ -421,6 +421,9 @@ def leaderboard():
 @app.route("/gallery")
 def gallery():
     return render_template("gallery.html")
+@app.route("/dm")
+def dm():
+    return render_template("dm.html")
 #@app.route("/attendance/<username>")
 #def gallery(username):
 #    return render_template("overview/overview.html",username=username)
