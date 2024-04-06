@@ -46,11 +46,11 @@
                     class="profile-circle-icon-2048x2048-7"
                     loading="lazy"
                     alt=""
-                    src="{{ url_for("static",filename="public/profilecircleicon2048x2048cqe5466q-1@2x.png")}}"
+                    src="{{ image }}"
                   />
 
                   <div class="profile-wrapper">
-                    <a href="{{url_for("profile")}}">
+                    <a href="{{ url_for('profile', username=username) }}">
                     <b class="profile1">Profile</b>
                   </a>
                   </div>

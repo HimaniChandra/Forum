@@ -365,12 +365,44 @@ def loogin():
     return render_template('login/index.html')
 @app.route('/homepage/<username>')
 def homepage(username):
-    return render_template('frame-11.html',username=username)
+    query={"Roll No":username}
+    resultt=collection.find_one(query)
+    fs = gridfs.GridFS(db)
+    file_cursor = fs.find_one({'filename': username})
+    if file_cursor is not None:
+        image_data = file_cursor.read()
+        encoded_image = 'data:image/jpeg;base64,' + base64.b64encode(image_data).decode('utf-8')
+    else:
+        default_image_path = 'static/img/default_profile.jpg'
+        encoded_image = 'data:image/jpeg;base64,' + base64.b64encode(open(default_image_path, 'rb').read()).decode('utf-8')
+    return render_template('frame-11.html',username=username,image=encoded_image)
 
 
-@app.route('/profile')
-def profile():
-    return render_template('profile.html')
+@app.route('/profile/<username>')
+def profile(username):
+    query={"Roll No":username}
+    resultt=collection.find_one(query)
+    print(resultt)
+    name=resultt["name"]
+    print(name)
+    roll=resultt["Roll No"]
+    reg=resultt["Reg No"]
+    yr=resultt["Yr"]
+    age=resultt["Age"]
+    sem=resultt["Sem"]
+    dob=resultt["DOB"]
+    email=resultt["Email"]
+    cls=resultt["Cls"]
+    ph=resultt["phone"]
+    fs = gridfs.GridFS(db)
+    file_cursor = fs.find_one({'filename': username})
+    if file_cursor is not None:
+        image_data = file_cursor.read()
+        encoded_image = 'data:image/jpeg;base64,' + base64.b64encode(image_data).decode('utf-8')
+    else:
+        default_image_path = 'static/img/default_profile.jpg'
+        encoded_image = 'data:image/jpeg;base64,' + base64.b64encode(open(default_image_path, 'rb').read()).decode('utf-8')
+    return render_template('profile.html',username=username,result=resultt,name=name,roll=roll,reg=reg,yr=yr,age=age,sem=sem,dob=dob,email=email,cls=cls,ph=ph,image=encoded_image)
 @app.route('/discuss')
 def discuss():
     return render_template('frame-9.html')
