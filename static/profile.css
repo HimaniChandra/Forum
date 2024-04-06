@@ -8,11 +8,11 @@
 }
 :root{
   
-  --bg : #000000;
+  --bg : beige;
   --red : #ee2046;
   --pur : #a879e9;
   --dpink:#ff002f;
-  --gray : rgba(25, 25, 25,1);
+  --gray : beige
 }
 a {
   color: inherit;

@@ -389,5 +389,8 @@ def leaderboard():
 @app.route("/gallery")
 def gallery():
     return render_template("gallery.html")
+#@app.route("/attendance/<username>")
+#def gallery(username):
+#    return render_template("overview/overview.html",username=username)
 if __name__ == '__main__':
     app.run(debug=True)

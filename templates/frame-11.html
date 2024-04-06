@@ -88,9 +88,13 @@
                 <p class="blank-line2">&nbsp;</p>
 
                 <a href="{{ url_for("store")}}">
-                <p class="gallery">store</p>
+                <p class="gallery">Store</p>
                 </a>
                 <p class="blank-line3">&nbsp;</p>
+                <a href="{{ url_for("overview",username=username)}}">
+                  <p class="gallery">Attendance</p>
+                  </a>
+                  <p class="blank-line3">&nbsp;</p>
 
                 <a href="{{ url_for("announce")}}">
                 <p class="about1">About</p>
