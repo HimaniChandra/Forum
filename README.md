@@ -1,5 +1,5 @@
 
-  # Himani Chandra's team library
+  # Licet Forum Project Implementation
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
